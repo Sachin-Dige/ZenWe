@@ -77,7 +77,7 @@ const CompanySetting = ({ click, setClick }) => {
             </Typography>
             <Button color="inherit">
               <Link
-                to="/dashboard"
+                to="/"
                 style={{ color: "#1A344B", textDecoration: "none" }}
               >
                 <img src={cross} alt="Image" />

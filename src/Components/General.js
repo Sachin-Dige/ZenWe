@@ -189,8 +189,6 @@ const General = ({click,setClick}) => {
                   </Box>
                 </Stack>
 
-                {/* <Divider/> */}
-
                 <Stack direction="row">
                   <Box sx={{ width: 820, height: 180, ml: "55px", mt: "40px" }}>
                     <Box component="div">
@@ -258,8 +256,6 @@ const General = ({click,setClick}) => {
                     </Box>
                   </Box>
                 </Stack>
-
-                {/* <Divider/> */}
 
                 <Stack direction="row">
                   <Box
@@ -502,8 +498,6 @@ const General = ({click,setClick}) => {
                     </Box>
                   </Box>
                 </Stack>
-
-                {/* <Divider/> */}
 
                 <Stack direction="row">
                   <Box

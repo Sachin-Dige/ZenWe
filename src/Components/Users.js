@@ -44,16 +44,16 @@ const Users = ({click,setClick}) => {
   const handleClose2 = () => setTeamsOpen(false);
   return (
     <>
-    <CompanySetting click={click} setClick={setClick}/>
+      <CompanySetting click={click} setClick={setClick} />
       <Box
         sx={{
           boxSizing: "border-box",
           position: "absolute",
-          width: {lg:"1299px",xs:"427px",md:"650px"},
-          height: {lg:"744px",xs:"610px"},
-          left: {lg:"437px",xs:"250px"},
-          right:"114px",
-          top:"162px",
+          width: { lg: "1299px", xs: "427px", md: "650px" },
+          height: { lg: "744px", xs: "610px" },
+          left: { lg: "437px", xs: "250px" },
+          right: "114px",
+          top: "162px",
           border: "1px solid #C4C4C4",
           borderRadius: "12px",
           textTransform: "capitalize",
@@ -75,7 +75,7 @@ const Users = ({click,setClick}) => {
         </Box>
         <Box
           sx={{
-            width: {lg:"1299px",xs:"427"},
+            width: { lg: "1299px", xs: "427" },
             height: "0px",
             mt: "30px",
             border: "1px solid #C4C4C4",
@@ -84,7 +84,7 @@ const Users = ({click,setClick}) => {
 
         <Box
           sx={{
-            width: {lg:"584px",xs:"286px",md:"586px"},
+            width: { lg: "584px", xs: "286px", md: "586px" },
             height: "89px",
             ml: "55px",
             mt: "30px",
@@ -292,8 +292,9 @@ const Users = ({click,setClick}) => {
                       opacity: "0.5",
                     }}
                   >
-                    <Typography sx={{ ml: "20px", mt: "8px",
-                              fontSize:"14px"}}>
+                    <Typography
+                      sx={{ ml: "20px", mt: "8px", fontSize: "14px" }}
+                    >
                       No Teams Available
                     </Typography>
                   </Box>
@@ -389,7 +390,7 @@ const Users = ({click,setClick}) => {
           </Typography>
           <Box
             sx={{
-              width: {lg:"1151px",xs:"333px"},
+              width: { lg: "1151px", xs: "333px" },
               height: "68px",
               background: "#F6F2F2",
               border: "1px solid #C4C4C4",
@@ -431,7 +432,7 @@ const Users = ({click,setClick}) => {
                 </Typography>
                 <Icon
                   sx={{
-                    left: {lg:"1144px",xs:"344px"},
+                    left: { lg: "1144px", xs: "344px" },
                     position: "absolute",
                     width: "28px",
                     height: "28px",
@@ -462,7 +463,7 @@ const Users = ({click,setClick}) => {
 
         <Box
           sx={{
-            width: {lg:"1151px",xs:"347px"},
+            width: { lg: "1151px", xs: "347px" },
             height: "114px",
             ml: "55px",
             mt: "60px",
@@ -485,7 +486,7 @@ const Users = ({click,setClick}) => {
           </Typography>
           <Box
             sx={{
-              width: {lg:"1151px",xs:"209px"},
+              width: { lg: "1151px", xs: "209px" },
               height: "68px",
               background: "#F6F2F2",
               border: "1px solid #C4C4C4",
@@ -528,9 +529,9 @@ const Users = ({click,setClick}) => {
                     position: "absolute",
                     width: "257px",
                     height: "22px",
-                    left: {lg:"900px",xs:"282px"},
-                    top: {lg:"515px",xs:"510px"},
-                    display: {lg:"flex",xs:"grid"},
+                    left: { lg: "900px", xs: "282px" },
+                    top: { lg: "515px", xs: "510px" },
+                    display: { lg: "flex", xs: "grid" },
                   }}
                 >
                   <Typography
@@ -548,7 +549,7 @@ const Users = ({click,setClick}) => {
                   >
                     Administrator <img src={downArrow} alt="Image" />
                   </Typography>
-                
+
                   <Typography
                     sx={{
                       width: "72px",
@@ -559,11 +560,13 @@ const Users = ({click,setClick}) => {
                       lineHeight: "18px",
                       color: "#1A344B",
                       cursor: "pointer",
-                      display:"flex",
-                      mt:{xs:"10px",lg:"0px"}
+                      display: "flex",
+                      mt: { xs: "10px", lg: "0px" },
                     }}
                     onClick={handleOpen2}
-                  > <img src={teams} alt="image" />
+                  >
+                    {" "}
+                    <img src={teams} alt="image" />
                     Teams
                   </Typography>
 
@@ -715,8 +718,9 @@ const Users = ({click,setClick}) => {
                               opacity: "0.5",
                             }}
                           >
-                            <Typography sx={{ ml: "20px", mt: "8px",
-                              fontSize:"14px"}}>
+                            <Typography
+                              sx={{ ml: "20px", mt: "8px", fontSize: "14px" }}
+                            >
                               All Members
                             </Typography>
                           </Box>
@@ -780,7 +784,7 @@ const Users = ({click,setClick}) => {
                                 textTransform: "capitalize",
                               }}
                             >
-                              <SaveIcon/> Save Changes
+                              <SaveIcon /> Save Changes
                             </Typography>
                           </Button>
                         </Box>
@@ -809,9 +813,9 @@ const Users = ({click,setClick}) => {
         </Box>
         <Box
           sx={{
-            width: {lg:"1299px",xs:"427"},
+            width: { lg: "1299px", xs: "427" },
             height: "0px",
-            mt: {lg:"80px",xs:"25px"},
+            mt: { lg: "80px", xs: "25px" },
             border: "1px solid #C4C4C4",
           }}
         />
